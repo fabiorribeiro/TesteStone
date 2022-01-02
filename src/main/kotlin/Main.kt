@@ -1,18 +1,18 @@
 import kotlin.math.roundToInt
 
+fun main() {
 // Para testar, preencher as variáveis abaixo:
 
-val despesas = listOf<Despesa>(
-    Despesa("Passeio de escuna", 5f, 8000),
-    Despesa("Diária do hotel", 3f, 33799),
-    Despesa("Almoço self-service", 0.757f, 4599)
-)
+    val despesas = listOf<Despesa>(
+        Despesa("Passeio de escuna", 5f, 8000),
+        Despesa("Diária do hotel", 3f, 33799),
+        Despesa("Almoço self-service", 0.757f, 4599)
+    )
 
-val pessoas = listOf<String>(
-    "Fábio", "Lucas", "Karen", "Carol"
-)
+    val pessoas = listOf<String>(
+        "Fábio", "Lucas", "Karen", "Carol"
+    )
 
-fun main() {
     calcularDespesas(despesas, pessoas)
 }
 
